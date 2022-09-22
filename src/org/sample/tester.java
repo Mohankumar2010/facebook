@@ -10,6 +10,6 @@ public class tester {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\eclipse-workspace\\FaceBook\\driver\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
-		
+		System.out.println("facebook");
 	}
 }
